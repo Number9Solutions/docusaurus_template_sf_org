@@ -1,6 +1,5 @@
 module.exports={
-  "title": "Nonprofit Success Pack (NPSP)",
-  "subtitle": "Product Documentation",
+  "title": "Nonprofit Success Pack (NPSP) Product Documentation",
   "tagline": "Fundraise and manage donors and donations.",
   "url": "https://www.npspdocs.com",
   "baseUrl": "/",
