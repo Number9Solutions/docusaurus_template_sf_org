@@ -2,7 +2,7 @@ module.exports={
   "title": "Nonprofit Success Pack (NPSP)",
   "subtitle": "Product Documentation",
   "tagline": "Fundraise and manage donors and donations.",
-  "url": "http://localhost:3000/",
+  "url": "https://www.npspdocs.com",
   "baseUrl": "/",
   "organizationName": "Salesforce.org",
   "projectName": "sf-org-ngo-npsp-docs",
@@ -28,12 +28,9 @@ module.exports={
       "@docusaurus/preset-classic",
       {
         "docs": {
-          // Docs folder path relative to website dir.
-          path: 'docs',
-          // Sidebars file relative to website dir.
-          sidebarPath: require.resolve('./sidebars.json'),
+       routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js'),
         },
-        "blog": {},
         "theme": {
           customCss: [require.resolve('./src/css/custom.css')]
         }
@@ -48,7 +45,6 @@ module.exports={
         "src": "img/salesforce-icon.png"
       },
       "items": [
-
       ]
     },
     "image": "img/docusaurus.png",
